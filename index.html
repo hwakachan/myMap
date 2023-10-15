@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myMap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      .navbar-nav li {
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <div class="navbar-brand">myMap</div>
+        <div class="col-md-6">
+          <form class="form-inline">
+            <input
+              class="form-control w-100"
+              type="text"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+        <div class="col-md-3">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active d-inline">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item d-inline">
+                <a class="nav-link" href="#">アルバム</a>
+              </li>
+              <li class="nav-item d-inline">
+                <a class="nav-link" href="#">行った</a>
+              </li>
+              <li class="nav-item d-inline">
+                <a class="nav-link" href="#">行きたい</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <p>
+        <img
+          src="images/map-japan.png"
+          alt="japan-map"
+          width="1200"
+          height="800"
+        />
+      </p>
+    </main>
+    <footer></footer>
+  </body>
+</html>
